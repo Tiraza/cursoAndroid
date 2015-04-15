@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/start"
+            android:id="@+id/btnStart"
+            android:onClick="onClickBtnStart"/>
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/pause"
+            android:id="@+id/btnPause"
+            android:onClick="onClickBtnPause"/>
+
+        <Button
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="@string/stop"
+            android:id="@+id/btnStop"
+            android:onClick="onClickBtnStop"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/status" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/txtStatus" />
+    </LinearLayout>
+</LinearLayout>
