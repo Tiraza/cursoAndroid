@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="extractor.com.helloworld" >
 
     <application
@@ -8,16 +7,15 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
-
         <activity
             android:name=".SplashScreen"
             android:label="@string/title_activity_exercicios" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".Exercicios"
             android:label="@string/title_activity_exercicios" >
@@ -25,10 +23,33 @@
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
-
         <activity
             android:name=".PrimeiroExercicio"
             android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".SegundoExercicio"
+            android:label="@string/title_activity_segundo_exercicio" >
+        </activity>
+        <activity
+            android:name=".TerceiroExercicio"
+            android:label="@string/title_activity_terceiro_exercicio" >
+        </activity>
+        <activity
+            android:name=".FrameLayout"
+            android:label="@string/title_activity_frame_layout" >
+        </activity>
+        <activity
+            android:name=".ListViewActivity"
+            android:label="@string/title_activity_list_view" >
+        </activity>
+        <activity
+            android:name=".GridViewActivity"
+            android:label="@string/title_activity_grid_view" >
+        </activity>
+        <activity
+            android:name=".SingleViewActivity"
+            android:label="@string/title_activity_single_view" >
         </activity>
     </application>
 

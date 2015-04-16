@@ -1,0 +1,47 @@
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:context="extractor.com.helloworld.TerceiroExercicio">
+
+    <TableRow>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:id="@+id/button4"
+            android:onClick="onClickBtnBack"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/first_name"
+            android:id="@+id/textView"
+            android:layout_column="1"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/last_name"
+            android:id="@+id/textView2"
+            android:layout_column="1"/>
+
+        <EditText
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2" />
+    </TableRow>
+
+</TableLayout>

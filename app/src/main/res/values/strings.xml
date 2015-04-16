@@ -5,6 +5,7 @@
     <string name="action_settings">Settings</string>
     <string name="title_activity_splash_screen">SplashScreen</string>
     <string name="title_activity_primeiro_exercicio">PrimeiroExercicio</string>
+    <string name="title_activity_segundo_exercicio">SegundoExercicio</string>
     <string name="title_activity_exercicios">Exercicios</string>
 
     <string name="splash_screen">Splash Screen !!</string>
@@ -20,5 +21,23 @@
     <string name="stoped">Stoped</string>
 
     <string name="primeiro_exercicio">Primeiro Exercicio</string>
+    <string name="segundo_exercicio">Segundo Exercicio</string>
+    <string name="terceiro_exercicio">Terceiro Exercicio</string>
+    <string name="done">Done</string>
+    <string name="enter_your_name">Enter your name</string>
+    <string name="title_activity_terceiro_exercicio">TerceiroExercicio</string>
+    <string name="back">Back</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="frame_layout">Frame Layout</string>
+    <string name="title_activity_frame_layout">FrameLayout</string>
+    <string name="list_view">List View</string>
+    <string name="title_activity_list_view">ListView</string>
+    <string name="relative_layout">Relative Layout</string>
+    <string name="table_layout">Table Layout</string>
+    <string name="linear_layout">Linear Layout</string>
+    <string name="grid_view">Grid View</string>
+    <string name="title_activity_grid_view">GridViewActivity</string>
+    <string name="title_activity_single_view">SingleViewActivity</string>
 
 </resources>
