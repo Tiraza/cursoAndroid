@@ -36,7 +36,7 @@
             android:label="@string/title_activity_terceiro_exercicio" >
         </activity>
         <activity
-            android:name=".FrameLayout"
+            android:name=".FrameLayoutActivity"
             android:label="@string/title_activity_frame_layout" >
         </activity>
         <activity

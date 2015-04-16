@@ -50,7 +50,7 @@ public class Exercicios extends ActionBarActivity {
     }
 
     public void onClickBtnFrameLayout (View v){
-        Intent i = new Intent(this, FrameLayout.class);
+        Intent i = new Intent(this, FrameLayoutActivity.class);
         startActivity(i);
     }
 
