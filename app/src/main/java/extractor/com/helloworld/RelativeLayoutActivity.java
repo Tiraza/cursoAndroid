@@ -12,14 +12,14 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 
-public class SegundoExercicio extends ActionBarActivity {
+public class RelativeLayoutActivity extends ActionBarActivity {
 
     private TextView txtName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_segundo_exercicio);
+        setContentView(R.layout.activity_relative_layout);
 
         Date date = new Date();
 

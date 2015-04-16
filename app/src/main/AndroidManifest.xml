@@ -24,15 +24,15 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".PrimeiroExercicio"
+            android:name=".LinearLayoutActivity"
             android:label="@string/app_name" >
         </activity>
         <activity
-            android:name=".SegundoExercicio"
+            android:name=".RelativeLayoutActivity"
             android:label="@string/title_activity_segundo_exercicio" >
         </activity>
         <activity
-            android:name=".TerceiroExercicio"
+            android:name=".TableLayoutActivity"
             android:label="@string/title_activity_terceiro_exercicio" >
         </activity>
         <activity

@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import com.github.johnpersano.supertoasts.SuperToast;
 
-public class PrimeiroExercicio extends ActionBarActivity {
+public class LinearLayoutActivity extends ActionBarActivity {
 
     private Button btnStart;
     private Button btnPause;
@@ -22,7 +22,7 @@ public class PrimeiroExercicio extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_primeiro_exercicio);
+        setContentView(R.layout.activity_linear_layout);
 
         btnStart = (Button) findViewById(R.id.btnStart);
         btnPause = (Button) findViewById(R.id.btnPause);

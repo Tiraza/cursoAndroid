@@ -35,17 +35,17 @@ public class Exercicios extends ActionBarActivity {
     }
 
     public void onClickBtnPrimeiroExercicio (View v){
-        Intent i = new Intent(this, PrimeiroExercicio.class);
+        Intent i = new Intent(this, LinearLayoutActivity.class);
         startActivity(i);
     }
 
     public void onClickBtnSegundoExercicio (View v){
-        Intent i = new Intent(this, SegundoExercicio.class);
+        Intent i = new Intent(this, RelativeLayoutActivity.class);
         startActivity(i);
     }
 
     public void onClickBtnTerceiroExercicio (View v){
-        Intent i = new Intent(this, TerceiroExercicio.class);
+        Intent i = new Intent(this, TableLayoutActivity.class);
         startActivity(i);
     }
 
