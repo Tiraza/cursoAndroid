@@ -1,4 +1,4 @@
-package extractor.com.helloworld;
+package extractor.com.helloworld.view.grid;
 
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
@@ -7,6 +7,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import extractor.com.helloworld.R;
 
 
 public class SingleViewActivity extends ActionBarActivity {

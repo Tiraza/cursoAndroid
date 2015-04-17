@@ -1,5 +1,6 @@
-package extractor.com.helloworld;
+package extractor.com.helloworld.text.autocomplete;
 
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -7,6 +8,8 @@ import android.view.MenuItem;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.MultiAutoCompleteTextView;
+
+import extractor.com.helloworld.R;
 
 
 public class AutoCompleteActivity extends ActionBarActivity {
@@ -18,6 +21,9 @@ public class AutoCompleteActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_auto_complete);
+
+        final ActionBar bar = getSupportActionBar();
+        bar.setTitle("Autocomplete");
 
         actText = (AutoCompleteTextView) findViewById(R.id.actText);
         mactText = (MultiAutoCompleteTextView) findViewById(R.id.mactText);

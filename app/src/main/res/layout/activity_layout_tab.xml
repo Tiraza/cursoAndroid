@@ -4,6 +4,6 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="extractor.com.helloworld.extractor.com.helloworld.layoutTab.LayoutTabActivity">
+    tools:context="extractor.com.helloworld.layout.tab.LayoutTabActivity">
 
 </RelativeLayout>

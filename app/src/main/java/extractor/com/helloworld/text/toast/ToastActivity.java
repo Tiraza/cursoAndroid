@@ -1,7 +1,8 @@
-package extractor.com.helloworld;
+package extractor.com.helloworld.text.toast;
 
 import android.app.Activity;
 import android.os.Parcelable;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -13,6 +14,8 @@ import com.github.johnpersano.supertoasts.SuperActivityToast;
 import com.github.johnpersano.supertoasts.SuperToast;
 import com.github.johnpersano.supertoasts.util.OnClickWrapper;
 
+import extractor.com.helloworld.R;
+
 
 public class ToastActivity extends ActionBarActivity {
 
@@ -20,6 +23,9 @@ public class ToastActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_toast);
+
+        final ActionBar bar = getSupportActionBar();
+        bar.setTitle("Toast");
     }
 
     @Override

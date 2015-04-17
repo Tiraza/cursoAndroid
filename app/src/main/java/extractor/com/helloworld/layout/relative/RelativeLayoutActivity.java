@@ -1,5 +1,6 @@
-package extractor.com.helloworld;
+package extractor.com.helloworld.layout.relative;
 
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -11,6 +12,8 @@ import android.widget.Toast;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import extractor.com.helloworld.R;
+
 
 public class RelativeLayoutActivity extends ActionBarActivity {
 
@@ -20,6 +23,9 @@ public class RelativeLayoutActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_relative_layout);
+
+        final ActionBar bar = getSupportActionBar();
+        bar.setTitle("Relative Layout");
 
         Date date = new Date();
 

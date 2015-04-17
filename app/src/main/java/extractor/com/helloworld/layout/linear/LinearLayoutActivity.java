@@ -1,5 +1,6 @@
-package extractor.com.helloworld;
+package extractor.com.helloworld.layout.linear;
 
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -9,6 +10,8 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.github.johnpersano.supertoasts.SuperToast;
+
+import extractor.com.helloworld.R;
 
 public class LinearLayoutActivity extends ActionBarActivity {
 
@@ -23,6 +26,9 @@ public class LinearLayoutActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_linear_layout);
+
+        final ActionBar bar = getSupportActionBar();
+        bar.setTitle("Linear Layout");
 
         btnStart = (Button) findViewById(R.id.btnStart);
         btnPause = (Button) findViewById(R.id.btnPause);

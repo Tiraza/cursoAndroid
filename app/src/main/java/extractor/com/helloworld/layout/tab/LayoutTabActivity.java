@@ -1,4 +1,4 @@
-package extractor.com.helloworld.extractor.com.helloworld.layoutTab;
+package extractor.com.helloworld.layout.tab;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -23,8 +23,8 @@ public class LayoutTabActivity extends ActionBarActivity {
         setContentView(R.layout.activity_layout_tab);
 
         final ActionBar bar = getSupportActionBar();
+        bar.setTitle("Tab Layout");
         bar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
-        bar.setTitle("Android: Tab Layout");
 
         for (int i = 1; i <= 5; i++) {
             ActionBar.Tab tab = bar.newTab();

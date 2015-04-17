@@ -1,4 +1,4 @@
-package extractor.com.helloworld.extractor.com.helloworld.layoutTab;
+package extractor.com.helloworld.layout.tab;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
