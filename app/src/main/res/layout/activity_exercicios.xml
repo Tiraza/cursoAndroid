@@ -56,4 +56,21 @@
         android:id="@+id/button7"
         android:layout_gravity="center_horizontal"
         android:onClick="onClickBtnGriView"/>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="@string/tab_layout"
+        android:id="@+id/button8"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClickBtnTabLayout"/>
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="@string/toast"
+        android:id="@+id/button9"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClickBtnToast"/>
 </LinearLayout>

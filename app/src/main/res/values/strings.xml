@@ -39,5 +39,11 @@
     <string name="grid_view">Grid View</string>
     <string name="title_activity_grid_view">GridViewActivity</string>
     <string name="title_activity_single_view">SingleViewActivity</string>
+    <string name="title_activity_layout_tab">LayoutTabActivity</string>
+    <string name="tab_layout">Tab Layout</string>
+    <string name="fragment">Insto é uma Fragment</string>
+    <string name="toast">Toast</string>
+    <string name="title_activity_toast">ToastActivity</string>
+    <string name="super_toast">Super Toast</string>
 
 </resources>

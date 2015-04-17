@@ -7,6 +7,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import extractor.com.helloworld.extractor.com.helloworld.layoutTab.LayoutTabActivity;
+
 
 public class Exercicios extends ActionBarActivity {
 
@@ -61,6 +63,16 @@ public class Exercicios extends ActionBarActivity {
 
     public void onClickBtnGriView (View v){
         Intent i = new Intent(this, GridViewActivity.class);
+        startActivity(i);
+    }
+
+    public void onClickBtnTabLayout (View v){
+        Intent i = new Intent(this, LayoutTabActivity.class);
+        startActivity(i);
+    }
+
+    public void onClickBtnToast (View v){
+        Intent i = new Intent(this, ToastActivity.class);
         startActivity(i);
     }
 }

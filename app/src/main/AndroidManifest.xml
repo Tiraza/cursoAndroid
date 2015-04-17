@@ -51,6 +51,14 @@
             android:name=".SingleViewActivity"
             android:label="@string/title_activity_single_view" >
         </activity>
+        <activity
+            android:name=".extractor.com.helloworld.layoutTab.LayoutTabActivity"
+            android:label="@string/title_activity_layout_tab" >
+        </activity>
+        <activity
+            android:name=".ToastActivity"
+            android:label="@string/title_activity_toast" >
+        </activity>
     </application>
 
 </manifest>
