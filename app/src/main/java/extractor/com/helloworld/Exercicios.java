@@ -75,4 +75,9 @@ public class Exercicios extends ActionBarActivity {
         Intent i = new Intent(this, ToastActivity.class);
         startActivity(i);
     }
+
+    public void onClickBtnAutoComplete (View v){
+        Intent i = new Intent(this, AutoCompleteActivity.class);
+        startActivity(i);
+    }
 }

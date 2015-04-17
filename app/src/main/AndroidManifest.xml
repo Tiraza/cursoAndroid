@@ -59,6 +59,10 @@
             android:name=".ToastActivity"
             android:label="@string/title_activity_toast" >
         </activity>
+        <activity
+            android:name=".AutoCompleteActivity"
+            android:label="@string/title_activity_auto_complete" >
+        </activity>
     </application>
 
 </manifest>

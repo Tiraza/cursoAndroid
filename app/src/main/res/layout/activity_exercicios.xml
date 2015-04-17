@@ -73,4 +73,12 @@
         android:id="@+id/button9"
         android:layout_gravity="center_horizontal"
         android:onClick="onClickBtnToast"/>
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:text="@string/auto_complete"
+        android:id="@+id/button12"
+        android:layout_gravity="center_horizontal"
+        android:onClick="onClickBtnAutoComplete"/>
 </LinearLayout>
