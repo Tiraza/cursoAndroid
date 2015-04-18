@@ -19,11 +19,10 @@ public class SplashScreen extends Activity {
             @Override
             public void run() {
                 finish();
-
                 Intent intent = new Intent();
                 intent.setClass(SplashScreen.this, Exercicios.class);
                 startActivity(intent);
             }
-        }, 2500);
+        }, 2000);
     }
 }

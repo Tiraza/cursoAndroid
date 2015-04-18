@@ -15,6 +15,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import extractor.com.helloworld.widget.buttons.ImageButtonActivity;
+import extractor.com.helloworld.fragments.FragmentsActivity;
 import extractor.com.helloworld.layout.frame.FrameLayoutActivity;
 import extractor.com.helloworld.layout.linear.LinearLayoutActivity;
 import extractor.com.helloworld.layout.relative.RelativeLayoutActivity;
@@ -24,6 +26,8 @@ import extractor.com.helloworld.text.autocomplete.AutoCompleteActivity;
 import extractor.com.helloworld.text.toast.ToastActivity;
 import extractor.com.helloworld.view.grid.GridViewActivity;
 import extractor.com.helloworld.view.list.ListViewActivity;
+import extractor.com.helloworld.widget.contextmenu.ContextMenuActivity;
+import extractor.com.helloworld.widget.spinners.SpinnerActivity;
 
 
 public class Exercicios extends ActionBarActivity {
@@ -43,6 +47,10 @@ public class Exercicios extends ActionBarActivity {
         exercicios.put(6, LayoutTabActivity.class);
         exercicios.put(7, ToastActivity.class);
         exercicios.put(8, AutoCompleteActivity.class);
+        exercicios.put(9, FragmentsActivity.class);
+        exercicios.put(10, ImageButtonActivity.class);
+        exercicios.put(11, SpinnerActivity.class);
+        exercicios.put(12, ContextMenuActivity.class);
 
         List<String> nomesExercicios = new ArrayList<>();
         nomesExercicios.add("1 - Linear Layout");
@@ -54,6 +62,10 @@ public class Exercicios extends ActionBarActivity {
         nomesExercicios.add("7 - Layout Tab");
         nomesExercicios.add("8 - Toast");
         nomesExercicios.add("9 - Autocomplete");
+        nomesExercicios.add("10 - Fragment");
+        nomesExercicios.add("11 - Button");
+        nomesExercicios.add("12 - Spinner");
+        nomesExercicios.add("13 - Context Menu");
 
         ArrayAdapter<String> adapterExercicios = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, nomesExercicios.toArray(new String[0]));
 

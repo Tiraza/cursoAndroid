@@ -9,7 +9,7 @@
         android:theme="@style/AppTheme" >
         <activity
             android:name=".SplashScreen"
-            android:label="@string/title_activity_exercicios" >
+            android:label="@string/curso_android" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -62,6 +62,22 @@
         <activity
             android:name=".text.autocomplete.AutoCompleteActivity"
             android:label="@string/title_activity_auto_complete" >
+        </activity>
+        <activity
+            android:name=".fragments.FragmentsActivity"
+            android:label="@string/title_activity_frament" >
+        </activity>
+        <activity
+            android:name=".widget.buttons.ImageButtonActivity"
+            android:label="@string/title_activity_image_button" >
+        </activity>
+        <activity
+            android:name=".widget.spinners.SpinnerActivity"
+            android:label="@string/title_activity_spinner" >
+        </activity>
+        <activity
+            android:name=".widget.contextmenu.ContextMenuActivity"
+            android:label="@string/title_activity_context_menu" >
         </activity>
     </application>
 

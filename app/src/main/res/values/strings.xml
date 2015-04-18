@@ -8,7 +8,7 @@
     <string name="title_activity_segundo_exercicio">SegundoExercicio</string>
     <string name="title_activity_exercicios">Exercicios</string>
 
-    <string name="splash_screen">Splash Screen !!</string>
+    <string name="splash_screen">Curso ANDROID</string>
 
     <string name="start">Start</string>
     <string name="pause">Pause</string>
@@ -291,5 +291,15 @@
         <item>Zambia</item>
         <item>Zimbabwe</item>
     </string-array>
+    <string name="title_activity_frament">FramentActivity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="portrait">Portrait</string>
+    <string name="landscape">Landscape</string>
+    <string name="curso_android">Curso Android</string>
+    <string name="title_activity_image_button">ImageButtonActivity</string>
+    <string name="title_activity_spinner">SpinnerActivity</string>
+    <string name="title_activity_context_menu">ContextMenuActivity</string>
 
 </resources>

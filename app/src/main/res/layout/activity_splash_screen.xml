@@ -4,7 +4,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="extractor.com.helloworld.SplashScreen"
-    android:gravity="center">
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:id="@+id/imageView2" />
 
     <TextView
         android:textSize="40sp"
@@ -12,4 +19,5 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="@string/splash_screen"/>
+
 </LinearLayout>
