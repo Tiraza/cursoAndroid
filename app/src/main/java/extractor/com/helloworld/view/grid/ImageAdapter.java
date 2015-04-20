@@ -9,9 +9,6 @@ import android.widget.ImageView;
 
 import extractor.com.helloworld.R;
 
-/**
- * Created by aluno on 15/04/2015.
- */
 public class ImageAdapter extends BaseAdapter {
 
     private Context context;

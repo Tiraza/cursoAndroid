@@ -4,6 +4,8 @@
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
         <!-- @android:style/Theme.Black -->
         <!-- Theme.AppCompat.Light.DarkActionBar -->
+        <item name="colorPrimary">@color/ColorPrimary</item>
+        <item name="colorPrimaryDark">@color/ColorPrimaryDark</item>
     </style>
 
     <style name="button_custom" parent="@android:style/Widget.Button">
