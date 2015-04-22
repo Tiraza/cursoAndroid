@@ -8,6 +8,7 @@ import extractor.com.helloworld.layout.linear.LinearLayoutActivity;
 import extractor.com.helloworld.layout.relative.RelativeLayoutActivity;
 import extractor.com.helloworld.layout.tab.LayoutTabActivity;
 import extractor.com.helloworld.layout.table.TableLayoutActivity;
+import extractor.com.helloworld.login.activity.LoginActivity;
 import extractor.com.helloworld.text.autocomplete.AutoCompleteActivity;
 import extractor.com.helloworld.text.toast.ToastActivity;
 import extractor.com.helloworld.view.grid.GridViewActivity;
@@ -35,6 +36,7 @@ public class ExercicioDAO {
         exercicios.add(new Exercicio("Button", ImageButtonActivity.class));
         exercicios.add(new Exercicio("Spinner", SpinnerActivity.class));
         exercicios.add(new Exercicio("Context Menu", ContextMenuActivity.class));
+        exercicios.add(new Exercicio("Login", LoginActivity.class));
         return exercicios;
     }
 

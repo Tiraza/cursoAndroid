@@ -301,5 +301,6 @@
     <string name="title_activity_image_button">ImageButtonActivity</string>
     <string name="title_activity_spinner">SpinnerActivity</string>
     <string name="title_activity_context_menu">ContextMenuActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
 
 </resources>

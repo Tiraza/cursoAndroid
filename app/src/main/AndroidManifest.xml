@@ -79,6 +79,10 @@
             android:name=".widget.contextmenu.ContextMenuActivity"
             android:label="@string/title_activity_context_menu" >
         </activity>
+        <activity
+            android:name=".login.activity.LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
     </application>
 
 </manifest>
