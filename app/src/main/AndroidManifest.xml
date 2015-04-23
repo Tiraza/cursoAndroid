@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="extractor.com.helloworld" >
 
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -82,6 +85,22 @@
         <activity
             android:name=".login.activity.LoginActivity"
             android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".camera.CameraAcessActivity"
+            android:label="@string/title_activity_camera_acess" >
+        </activity>
+        <activity
+            android:name=".sms.SmsActivity"
+            android:label="@string/title_activity_sms" >
+        </activity>
+        <activity
+            android:name=".EmailActivity"
+            android:label="@string/title_activity_email" >
+        </activity>
+        <activity
+            android:name=".GPS.GpsActivity"
+            android:label="@string/title_activity_gps" >
         </activity>
     </application>
 

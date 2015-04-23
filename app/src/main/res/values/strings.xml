@@ -302,5 +302,9 @@
     <string name="title_activity_spinner">SpinnerActivity</string>
     <string name="title_activity_context_menu">ContextMenuActivity</string>
     <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_camera_acess">CameraAcessActivity</string>
+    <string name="title_activity_sms">SmsActivity</string>
+    <string name="title_activity_email">EmailActivity</string>
+    <string name="title_activity_gps">GpsActivity</string>
 
 </resources>

@@ -2,6 +2,8 @@ package extractor.com.helloworld.main;
 
 import java.util.ArrayList;
 
+import extractor.com.helloworld.EmailActivity;
+import extractor.com.helloworld.camera.CameraAcessActivity;
 import extractor.com.helloworld.fragments.FragmentsActivity;
 import extractor.com.helloworld.layout.frame.FrameLayoutActivity;
 import extractor.com.helloworld.layout.linear.LinearLayoutActivity;
@@ -9,6 +11,7 @@ import extractor.com.helloworld.layout.relative.RelativeLayoutActivity;
 import extractor.com.helloworld.layout.tab.LayoutTabActivity;
 import extractor.com.helloworld.layout.table.TableLayoutActivity;
 import extractor.com.helloworld.login.activity.LoginActivity;
+import extractor.com.helloworld.sms.SmsActivity;
 import extractor.com.helloworld.text.autocomplete.AutoCompleteActivity;
 import extractor.com.helloworld.text.toast.ToastActivity;
 import extractor.com.helloworld.view.grid.GridViewActivity;
@@ -36,7 +39,9 @@ public class ExercicioDAO {
         exercicios.add(new Exercicio("Button", ImageButtonActivity.class));
         exercicios.add(new Exercicio("Spinner", SpinnerActivity.class));
         exercicios.add(new Exercicio("Context Menu", ContextMenuActivity.class));
-        exercicios.add(new Exercicio("Login", LoginActivity.class));
+        exercicios.add(new Exercicio("Camera Acess", CameraAcessActivity.class));
+        exercicios.add(new Exercicio("SMS", SmsActivity.class));
+        exercicios.add(new Exercicio("Email", EmailActivity.class));
         return exercicios;
     }
 

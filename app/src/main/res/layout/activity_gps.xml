@@ -1,0 +1,57 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="extractor.com.helloworld.GPS.GpsActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:onClick="onClickGetLocation"
+        android:textColor="@color/white"
+        android:background="@drawable/selector_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Location"
+        android:id="@+id/button7" />
+
+    <Button
+        android:onClick="onClickDisconnect"
+        android:textColor="@color/white"
+        android:background="@drawable/selector_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Disconnect Service"
+        android:id="@+id/button8"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:onClick="onClickConnect"
+        android:textColor="@color/white"
+        android:background="@drawable/selector_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Connect Service"
+        android:id="@+id/button9"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/txtLocation"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/txtAddress"
+        android:layout_marginTop="8dp" />
+</LinearLayout>
