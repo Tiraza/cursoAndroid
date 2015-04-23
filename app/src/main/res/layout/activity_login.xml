@@ -7,6 +7,15 @@
     android:orientation="vertical"
     android:gravity="center">
 
+    <TextView
+        android:textColor="@color/ColorPrimary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="Docnix"
+        android:id="@+id/textView5"
+        android:layout_gravity="center_horizontal" />
+
     <EditText
         android:hint="Username"
         android:layout_width="fill_parent"

@@ -4,10 +4,13 @@ import android.os.AsyncTask;
 
 import com.github.kevinsawicki.http.HttpRequest;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class LoginService extends AsyncTask<Void, Void, Void> {
     public AsyncResponse delegate = null;
 
-    private static final String URL = "";
+    private static final String URL = "http://private-dac29c-docnix.apiary-mock.com/login/docnix?user=user&password=password";
 
     private final Integer OK = 200;
     private final Integer ERROR = 400;
@@ -30,11 +33,15 @@ public class LoginService extends AsyncTask<Void, Void, Void> {
     @Override
     protected Void doInBackground(Void... params) {
         try {
-            HttpRequest request = HttpRequest.get(URL).basic(login, senha);
+            Map<String, String> data = new HashMap<>();
+            data.put("user", login);
+            data.put("password", senha);
+
+            HttpRequest request = HttpRequest.post(URL).form(data);
             httpStatus = request.code();
             response = request.body();
         }catch (Exception e){
-            return null;
+            httpStatus = ERROR;
         }
         return null;
     }

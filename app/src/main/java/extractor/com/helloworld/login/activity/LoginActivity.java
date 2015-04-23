@@ -28,11 +28,15 @@ public class LoginActivity extends ActionBarActivity implements AsyncResponse{
         edtSenha = (EditText) findViewById(R.id.edtSenha);
     }
 
-    private void onClickBtnLogin (View v){
+    public void onClickBtnLogin (View v){
         String login = edtLogin.getText().toString();
         String senha = edtSenha.getText().toString();
 
+        edtLogin.setEnabled(false);
+        edtSenha.setEnabled(false);
+
         LoginService service = new LoginService(login, senha);
+        service.delegate = this;
         service.execute();
     }
 
@@ -43,5 +47,8 @@ public class LoginActivity extends ActionBarActivity implements AsyncResponse{
         } else if (result == 400){
             Toast.makeText(this, "Login status: ERROR", Toast.LENGTH_SHORT).show();
         }
+
+        edtLogin.setEnabled(true);
+        edtSenha.setEnabled(true);
     }
 }

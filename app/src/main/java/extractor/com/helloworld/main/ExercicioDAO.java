@@ -42,6 +42,7 @@ public class ExercicioDAO {
         exercicios.add(new Exercicio("Camera Acess", CameraAcessActivity.class));
         exercicios.add(new Exercicio("SMS", SmsActivity.class));
         exercicios.add(new Exercicio("Email", EmailActivity.class));
+        exercicios.add(new Exercicio("Login", LoginActivity.class));
         return exercicios;
     }
 
