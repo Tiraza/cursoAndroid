@@ -306,5 +306,7 @@
     <string name="title_activity_sms">SmsActivity</string>
     <string name="title_activity_email">EmailActivity</string>
     <string name="title_activity_gps">GpsActivity</string>
+    <string name="title_activity_intent">IntentActivity</string>
+    <string name="title_activity_async_task">AsyncTaskActivity</string>
 
 </resources>

@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.SEND_SMS" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -102,6 +103,14 @@
         <activity
             android:name=".GPS.GpsActivity"
             android:label="@string/title_activity_gps" >
+        </activity>
+        <activity
+            android:name=".intent.IntentActivity"
+            android:label="@string/title_activity_intent" >
+        </activity>
+        <activity
+            android:name=".asynctask.AsyncTaskActivity"
+            android:label="@string/title_activity_async_task" >
         </activity>
     </application>
 

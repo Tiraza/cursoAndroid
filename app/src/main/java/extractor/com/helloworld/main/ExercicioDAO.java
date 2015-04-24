@@ -3,8 +3,11 @@ package extractor.com.helloworld.main;
 import java.util.ArrayList;
 
 import extractor.com.helloworld.EmailActivity;
+import extractor.com.helloworld.GPS.GpsActivity;
+import extractor.com.helloworld.asynctask.AsyncTaskActivity;
 import extractor.com.helloworld.camera.CameraAcessActivity;
 import extractor.com.helloworld.fragments.FragmentsActivity;
+import extractor.com.helloworld.intent.IntentActivity;
 import extractor.com.helloworld.layout.frame.FrameLayoutActivity;
 import extractor.com.helloworld.layout.linear.LinearLayoutActivity;
 import extractor.com.helloworld.layout.relative.RelativeLayoutActivity;
@@ -43,6 +46,9 @@ public class ExercicioDAO {
         exercicios.add(new Exercicio("SMS", SmsActivity.class));
         exercicios.add(new Exercicio("Email", EmailActivity.class));
         exercicios.add(new Exercicio("Login", LoginActivity.class));
+        exercicios.add(new Exercicio("GPS", GpsActivity.class));
+        exercicios.add(new Exercicio("Intent", IntentActivity.class));
+        exercicios.add(new Exercicio("Async Task", AsyncTaskActivity.class));
         return exercicios;
     }
 
