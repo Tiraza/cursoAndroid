@@ -19,6 +19,7 @@ public class AsyncTaskActivity extends ActionBarActivity implements AsyncTaskRes
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_async_task);
+        setTitle("Async Task");
 
         edtTempo = (EditText) findViewById(R.id.edtTempo);
         txtTask = (TextView) findViewById(R.id.txtTask);
