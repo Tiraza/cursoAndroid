@@ -15,6 +15,7 @@ import extractor.com.helloworld.layout.tab.LayoutTabActivity;
 import extractor.com.helloworld.layout.table.TableLayoutActivity;
 import extractor.com.helloworld.login.activity.LoginActivity;
 import extractor.com.helloworld.sms.SmsActivity;
+import extractor.com.helloworld.sqlite.SQLiteActivity;
 import extractor.com.helloworld.text.autocomplete.AutoCompleteActivity;
 import extractor.com.helloworld.text.toast.ToastActivity;
 import extractor.com.helloworld.view.grid.GridViewActivity;
@@ -49,6 +50,7 @@ public class ExercicioDAO {
         exercicios.add(new Exercicio("GPS", GpsActivity.class));
         exercicios.add(new Exercicio("Intent", IntentActivity.class));
         exercicios.add(new Exercicio("Async Task", AsyncTaskActivity.class));
+        exercicios.add(new Exercicio("Banco de Dados", SQLiteActivity.class));
         return exercicios;
     }
 

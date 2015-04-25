@@ -308,5 +308,8 @@
     <string name="title_activity_gps">GpsActivity</string>
     <string name="title_activity_intent">IntentActivity</string>
     <string name="title_activity_async_task">AsyncTaskActivity</string>
+    <string name="title_activity_sqlite">SQLiteActivity</string>
+    <string name="title_activity_novo_contato">NovoContatoActivity</string>
+    <string name="title_activity_editar_contato">EditarContatoActivity</string>
 
 </resources>
