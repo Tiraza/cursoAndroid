@@ -44,24 +44,6 @@ public class RelativeLayoutActivity extends ActionBarActivity {
         txtName = (TextView) findViewById(R.id.name);
     }
 
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_segundo_exercicio, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
     public void onClickBtnDone(View v){
         Toast.makeText(this, txtName.getText(), Toast.LENGTH_SHORT).show();
     }

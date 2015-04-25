@@ -38,25 +38,6 @@ public class SpinnerActivity extends ActionBarActivity implements AdapterView.On
         spVersions.setOnItemSelectedListener(this);
     }
 
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_spinner, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-
-        if (id == R.id.action_settings) {
-            return true;
-        }
-
-        return super.onOptionsItemSelected(item);
-    }
-
-
     @Override
     public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
         spVersions.setSelection(position);
