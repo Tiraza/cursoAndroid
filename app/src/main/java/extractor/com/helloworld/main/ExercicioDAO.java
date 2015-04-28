@@ -4,7 +4,9 @@ import java.util.ArrayList;
 
 import extractor.com.helloworld.EmailActivity;
 import extractor.com.helloworld.GPS.GpsActivity;
+import extractor.com.helloworld.GoogleMapsActivity;
 import extractor.com.helloworld.asynctask.AsyncTaskActivity;
+import extractor.com.helloworld.calllistener.CallListenerActivity;
 import extractor.com.helloworld.camera.CameraAcessActivity;
 import extractor.com.helloworld.fragments.FragmentsActivity;
 import extractor.com.helloworld.intent.IntentActivity;
@@ -14,6 +16,7 @@ import extractor.com.helloworld.layout.relative.RelativeLayoutActivity;
 import extractor.com.helloworld.layout.tab.LayoutTabActivity;
 import extractor.com.helloworld.layout.table.TableLayoutActivity;
 import extractor.com.helloworld.login.activity.LoginActivity;
+import extractor.com.helloworld.notifications.NotificationsActivity;
 import extractor.com.helloworld.sms.SmsActivity;
 import extractor.com.helloworld.sqlite.SQLiteActivity;
 import extractor.com.helloworld.text.autocomplete.AutoCompleteActivity;
@@ -51,6 +54,9 @@ public class ExercicioDAO {
         exercicios.add(new Exercicio("Intent", IntentActivity.class));
         exercicios.add(new Exercicio("Async Task", AsyncTaskActivity.class));
         exercicios.add(new Exercicio("Banco de Dados", SQLiteActivity.class));
+        exercicios.add(new Exercicio("Call Listener", CallListenerActivity.class));
+        exercicios.add(new Exercicio("Notificações", NotificationsActivity.class));
+        exercicios.add(new Exercicio("Google Maps", GoogleMapsActivity.class));
         return exercicios;
     }
 
