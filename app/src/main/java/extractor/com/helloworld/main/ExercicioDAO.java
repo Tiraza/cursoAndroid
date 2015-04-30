@@ -23,6 +23,7 @@ import extractor.com.helloworld.text.autocomplete.AutoCompleteActivity;
 import extractor.com.helloworld.text.toast.ToastActivity;
 import extractor.com.helloworld.view.grid.GridViewActivity;
 import extractor.com.helloworld.view.list.ListViewActivity;
+import extractor.com.helloworld.webservice.BuscaActivity;
 import extractor.com.helloworld.widget.buttons.ImageButtonActivity;
 import extractor.com.helloworld.widget.contextmenu.ContextMenuActivity;
 import extractor.com.helloworld.widget.spinners.SpinnerActivity;
@@ -57,6 +58,7 @@ public class ExercicioDAO {
         exercicios.add(new Exercicio("Call Listener", CallListenerActivity.class));
         exercicios.add(new Exercicio("Notificações", NotificationsActivity.class));
         exercicios.add(new Exercicio("Google Maps", GoogleMapsActivity.class));
+        exercicios.add(new Exercicio("Web Services", BuscaActivity.class));
         return exercicios;
     }
 

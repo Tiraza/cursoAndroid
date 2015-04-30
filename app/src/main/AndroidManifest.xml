@@ -22,11 +22,10 @@
 
     <meta-data
         android:name="com.google.android.maps.v2.API_KEY"
-        android:value="AIzaSyChEjkIjLFmBwdJ7w0gJgOZBeGv2RMVgys"/>
-
+        android:value="AIzaSyChEjkIjLFmBwdJ7w0gJgOZBeGv2RMVgys" />
     <meta-data
         android:name="com.google.android.gms.version"
-        android:value="@integer/google_play_services_version"/>
+        android:value="@integer/google_play_services_version" />
 
     <application
         android:allowBackup="true"
@@ -160,6 +159,10 @@
         <activity
             android:name=".GoogleMapsActivity"
             android:label="@string/title_activity_google_maps" >
+        </activity>
+        <activity
+            android:name=".webservice.BuscaActivity"
+            android:label="@string/title_activity_busca" >
         </activity>
     </application>
 
