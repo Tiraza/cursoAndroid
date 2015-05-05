@@ -17,6 +17,8 @@ import extractor.com.helloworld.layout.tab.LayoutTabActivity;
 import extractor.com.helloworld.layout.table.TableLayoutActivity;
 import extractor.com.helloworld.login.activity.LoginActivity;
 import extractor.com.helloworld.notifications.NotificationsActivity;
+import extractor.com.helloworld.restfull.RestFullActivity;
+import extractor.com.helloworld.restfull.TesteActivity;
 import extractor.com.helloworld.sms.SmsActivity;
 import extractor.com.helloworld.sqlite.SQLiteActivity;
 import extractor.com.helloworld.text.autocomplete.AutoCompleteActivity;
@@ -59,6 +61,7 @@ public class ExercicioDAO {
         exercicios.add(new Exercicio("Notificações", NotificationsActivity.class));
         exercicios.add(new Exercicio("Google Maps", GoogleMapsActivity.class));
         exercicios.add(new Exercicio("Web Services", BuscaActivity.class));
+        exercicios.add(new Exercicio("Volley - GSON", TesteActivity.class));
         return exercicios;
     }
 

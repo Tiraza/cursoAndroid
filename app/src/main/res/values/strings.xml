@@ -316,5 +316,7 @@
     <string name="title_activity_view_notification">ViewNotificationActivity</string>
     <string name="title_activity_google_maps">GoogleMapsActivity</string>
     <string name="title_activity_busca">BuscaActivity</string>
+    <string name="restfullActivity">RestFull</string>
+    <string name="title_activity_teste">TesteActivity</string>
 
 </resources>
